@@ -1,0 +1,5 @@
+roscore
+export ROS_PACKAGE_PATH=~/GR:$ROS_PACKAGE_PATH #keep using this if it says package not found for any of these launches...
+roslaunch openni_camera openni_node.launch 
+rosrun openni_tracker openni_tracker
+roslaunch gesture handposition.launch 

@@ -1,0 +1,4 @@
+geometry_msgs/Point left_position
+geometry_msgs/Point right_position
+bool left_click
+bool right_click

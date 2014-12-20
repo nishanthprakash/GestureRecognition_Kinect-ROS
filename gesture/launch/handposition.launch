@@ -1,0 +1,16 @@
+<launch>
+ 
+  <node 
+       pkg="skeletal_tracker" type="tracker"
+        name="skeletal_tracker" output="screen" >
+   
+  </node>
+
+ <node 
+       pkg="gesture" type="hand_position"
+        name="hand_position" output="screen" >
+   
+  </node>
+
+ 
+</launch>

@@ -1,0 +1,1 @@
+changed "makefile.ros" to "makefile" to be used to compile using make for eclipse project...the compilation takes place using CMake which makes us an eclipse project ???
